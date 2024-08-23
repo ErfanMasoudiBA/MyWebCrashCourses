@@ -1,0 +1,129 @@
+* {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#test {
+    color: maroon;
+}
+
+div.orangee {
+    background-color: orange;
+    text-align: center;
+    line-height: 5;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+}
+
+span.yellowe {
+    background-color: yellow;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.box-model{
+    border: 1px solid red;
+    height: 50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h3{
+    color: brown;
+}
+h3{
+    color: aqua;
+}
+
+
+
+h4{
+    color: brown;
+}
+h4{
+    color: aqua !important;
+}
+#title{
+    color: antiquewhite;
+}
+.sub-heading{
+    color: blue;
+}
+
+.inheritance{
+    color: orange;
+    font-size: 40px;
+}
+
+th,td{
+    border-bottom: 1px solid #ccc;
+    padding: 14px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td{
+    text-align: center;
+    /* height: 50px;
+    vertical-align: bottom; */
+}
+
+.content-1{
+    border: 1px solid red;
+    display: inline;
+
+}
+.content-2{
+    border: 1px solid blue ;
+    display: block;
+    display: none;
+}
+
+.position-1{
+    border: 1px solid red;
+    position: sticky;
+    /* position: relative; */
+    top: 50px;
+    left: 50px;
+}
+.position-2{
+    border: 1px solid blue;
+    position: absolute;
+    /* position: fixed; */
+    bottom: 0px;
+    right: 0px;
+    
+}
+
+.container{
+    position: relative;
+    width: 200px;
+    height: 2000px;
+    border: 1px dashed black;
+}
